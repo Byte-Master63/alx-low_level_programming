@@ -36,7 +36,7 @@ int main(void)
 }
 	else
 {
-	printf("%d is zero\n");
+	printf("is zero\n");
 }
 	return (0);
 }
