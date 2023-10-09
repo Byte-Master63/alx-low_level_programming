@@ -11,8 +11,8 @@
  */
 int main(void)
 {
-	int n = 0;
-	int LastDigit = n % 10;
+	int n = -1;
+	int lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -24,12 +24,12 @@ int main(void)
  * Return: 0 on successful execution, non-zero on error.
  */
 
-	printf("Last digit of %d is %d\n", n, LastDigit);
-if (LastDigit > 5)
+	printf("Last digit of %d is %d\n", n, lastDigit);
+if (lastDigit > 5)
 {
 	printf("greater than 5\n");
 }
-else if (LastDigit == 0)
+else if (lastDigit == 0)
 {
 	printf("is zero\n");
 }
