@@ -15,6 +15,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/**
+ * main - Entry point of the program
+ *
+ * This function serves as the entry point for the program.
+ *
+ * Return: 0 on successful execution, non-zero on error.
+ */
 	int LastDigit = n % 10;
 
 	printf("Last digit of %d is %d\n", n, LastDigit);
