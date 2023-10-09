@@ -25,8 +25,10 @@ if (LastDigit > 5)
 else if (LastDigit == 0)
 {
 	printf("is zero\n");
+}
 else
 {
 	printf("is less than 6 and not 0\n");
+}
 	return (0);
 }
