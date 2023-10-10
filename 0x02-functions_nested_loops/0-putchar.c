@@ -1,15 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point of the program
- * (void) - no arguments or parameters for main function.
- * This function serves as the entry point for the program. It prints
- * the string "_putchar" followed by a new line and returns 0 to indicate
- * successful execution.
- * Return: Always 0 (Success)
+ *main- entry point of program,  prints _putchar.
+ *is written by mbah
+ *Return: always 0 if success
  */
 int main(void)
 {
-	printf("_putcher\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
