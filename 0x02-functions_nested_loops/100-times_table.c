@@ -24,8 +24,9 @@ if (j == 0)
 }
 else
 {
+	printf(", ", result);
 if (result < 10)
-	printf(", %d", result);
+	printf("  %d",result);
 }
 else if (result < 100)
 {
@@ -38,5 +39,4 @@ else
 }
 }
 	printf("\n");
-}
 }
