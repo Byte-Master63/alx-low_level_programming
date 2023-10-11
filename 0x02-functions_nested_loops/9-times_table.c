@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- *main - is the entry point of the program
- *times_table- a function to print the 9 times_table from 0 to 9.
+ *times_table - Print the 9 times table, starting with.
  *This function prints the multiplication results of 9 from 0 to 9.
  *It follows the format "9 x n = result"for each number from 0 to 9.
  */
