@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  *main - is the entry point of the program
  *times_table- a function to print the 9 times_table from 0 to 9.
@@ -8,15 +8,30 @@
  */
 void times_table(void)
 {
-	int i;
+	int i, j, result;
 
-	for (int i = 0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 {
-	printf("9 x %d =  %d\n", i, 9 * i);
+	for (j = 0; j <= 9; j++)
+{
+	result = i * j;
+
+	if (j == 0)
+{
+	printf("%d", result);
+}
+	else
+{
+	if (result < 10)
+{
+	printf(",  %d", result);
+}
+	else
+{
+	printf(", %d", result);
 }
 }
-int main(void)
-{
-	times_table();
-	return (0);
+}
+	printf("\n");
+}
 }
