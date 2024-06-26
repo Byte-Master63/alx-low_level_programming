@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *main - function prints text as output
 *
@@ -7,14 +6,14 @@
 */
 int main(void)
 {
-	char school[10] = "_putchar";
-
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(school[i]);
-	}
-	_putchar(10);
-	return (0);
+_putchar ('_');
+_putchar ('p');
+_putchar ('u');
+_putchar ('t');
+_putchar ('c');
+_putchar ('h');
+_putchar ('a');
+_putchar ('r');
+_putchar ('\n');
+return (0);
 }
