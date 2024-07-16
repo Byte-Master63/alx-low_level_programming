@@ -52,12 +52,12 @@ char **strtow(char *str)
 				free(strArr);
 				return (NULL);
 			}
-				wordCount++;
-				letter = 1;
-			}
-			else if (*(str + counter) == ' ' && letter)
-				letter = 0;
-			counter++;
+			wordCount++;
+			letter = 1;
+		}
+		else if (*(str + counter) == ' ' && letter)
+			letter = 0;
+		counter++;
 
 		if (!wordCount)
 			return (NULL);
@@ -66,7 +66,7 @@ char **strtow(char *str)
 
 		if (str[wordCount] != ' ' && !letter)
 		{
-		       strArr[counter] = first_word(str + counter);
+			strArr[counter] = first_word(str + counter);
 			if (!strArr[counter])
 			{
 				wordCount--;
